@@ -7,7 +7,6 @@ import java.io.*;
 public class CreateJson {
     // disableHtmlEscaping() - fix problem with \u0026 etc.
     private final Gson GSON = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-
     /*
     *Windows - check user directory
     *Linux - check home directory
